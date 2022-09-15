@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SA_PASSWORD=${SA_PASSWORD:-Restore!}
+SA_PASSWORD=${SA_PASSWORD:-Rest0re!}
 BAKFILE=${BAKFILE:-echo.bak}
 
 echo "Waiting for the SQL Server to come up"

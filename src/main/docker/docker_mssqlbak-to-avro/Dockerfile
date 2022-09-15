@@ -11,7 +11,7 @@ WORKDIR /usr/work
 
 # Copy entrypoint.sh, mssql-restore.sh scripts into working directory
 COPY entrypoint.sh /usr/work/
-COPY run_mssqlrestore.sh /usr/work/
+COPY mssql-restore.sh /usr/work/
 #bak file should be mounted on a volume
 #COPY $BAKFILE /usr/work/
 
